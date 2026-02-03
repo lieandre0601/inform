@@ -1,0 +1,36 @@
+body{
+    margin: 10px;
+    background-color: rgb(146, 191, 221);
+}
+header{
+    color: rgb(255, 255, 255);
+    background-color: rgb(54, 107, 150);
+    border-radius: 15px;
+    margin: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: xx-large;
+    font-family: cursive;
+    text-align: center;
+    justify-content: space-between;
+}
+header img{
+    margin: 0px;
+    
+}
+nav a{
+    background-color: rgb(163, 235, 235);
+    text-decoration: none;
+    color: rgb(81, 150, 138);
+    text-align: right;
+    padding: 10px 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    border-radius: 15px;
+}
+nav a:hover{
+    text-align: right;
+    padding: 15px;
+    padding-left: 10px;
+}
