@@ -1,0 +1,215 @@
+/* GENERAL */
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5fff7;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* HEADER */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    position: fixed;
+    width: 91%;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    z-index: 1000;
+    border-radius: 15px;
+    margin: 15px;
+    display: flex;
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+.banner a{
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #2e7d32;
+}
+
+nav a{
+    margin-left: 25px;
+    text-decoration: none;
+    color: #2e7d32;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: white;
+    background: #4caf50;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+
+/* HOME SECTION */
+
+section.home{
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("ChatGPT\ Image\ 10\ Mar\ 2026\,\ 08.06.32\ -\ Copy.png");
+}
+
+.kotakbiotek{
+    width: 40%;
+    margin-left: 340px;
+    padding-top: 200px;
+}
+
+.namabiotek{
+    font-size: 55px;
+    color: #000000;
+    text-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    background: #e8f5e9;
+    border-radius: 15px;
+}
+
+.deskBiotek{
+    color: #000000;
+    font-size: 20px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.1)
+    white
+}
+
+
+/* PROJECT SECTION */
+
+section.project{
+    height: 800px;
+    background: #4caf50;
+    text-align: center;
+    padding-top: 120px;
+    border-radius: 300px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.deskProject{
+    width: 60%;
+    margin: auto;
+}
+
+.deskProject img{
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.deskProject h3{
+    font-size: 32px;
+    color: #2e7d32;
+}
+
+.deskProject p{
+    font-size: 16px;
+    text-align: justify;
+    color: #444;
+}
+
+
+/* HOW TO */
+
+section.howto{
+    height: 800px;
+    text-align: center;
+    background: #e8f5e9;
+    padding-top: 120px;
+}
+
+section.howto h2{
+    color: #2e7d32;
+    background-color: #5eca64;
+    margin: 0px auto 0px auto;
+    border-radius: 15px;
+    font-size: 35px;
+}
+
+
+/* PROFILE */
+
+section.profile{
+    height: 800px;
+    text-align: center;
+    background-color: #2bc137;
+    padding-top: 120px;
+
+}
+
+section.profile h2{
+    color: #000000;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    background: #f5fff7;
+    width: 40%;
+    height: 80px;
+    margin: auto;
+    border-radius: 20px;
+}
+section.howto{
+    height: 640px;
+    padding-top: 100px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(Polanya\ papan\ catur\ hijau-putih.png);
+    justify-content: space-between;
+}
+
+.howto img{
+    height: 250px;
+    margin: 60px;
+}
+
+.deskhowto{
+    display: flex;
+    width: 60%;
+    margin: 0px auto 0px auto;
+    background: #3bab51 700px;
+    border-radius: 30px;
+    height: 350px;
+    padding: auto;
+}
+
+.dokumentasi{
+    margin-left: 50px;
+}
+.cardProfile{
+    background-color: rgb(213, 209, 209);
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+
+}
+.imgProfile img{
+    width: 60%;
+    height: 60%;
+}
+
+.medsos{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px;
+}
+
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
+}
